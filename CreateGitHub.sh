@@ -37,4 +37,5 @@ git add . # README.md
 git commit -m "Initial commit"
 
 # Push the changes to the GitHub repository
-git push -u origin master
+git branch -M main
+git push -u origin main
