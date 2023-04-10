@@ -2,7 +2,7 @@
 
 # Set your GitHub username and access token
 USERNAME="bahyway"
-# This Token has a 'Create Repo' & 'Delete Repo' permissions
+# This Token has a 'Create Repo' & 'Delete Repo' permissions, Do not add anything befor or beside the Token
 
 TOKEN="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" 
 
