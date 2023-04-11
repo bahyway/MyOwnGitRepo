@@ -8,7 +8,7 @@ TOKEN="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"
 
 
 # Set the name of the repository you want to delete
-REPO_NAME="MyOwnGitRepo"
+REPO_NAME="bahyway.github.io"
 
 # Check if the repository exists
 curl -s -H "Authorization: token $TOKEN" "https://api.github.com/repos/$USERNAME/$REPO_NAME" | grep -q '"message": "Not Found"'

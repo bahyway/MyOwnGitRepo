@@ -3,13 +3,15 @@
 from github import Github
 
 # Authentication token
-TOKEN='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'
+
+TOKEN = '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'
+
 
 # Initialize PyGithub client
 g = Github(TOKEN)
 
 # Delete repository
-repo_name = 'MyOwnGitRepo'
+repo_name = 'bahyway.github.io'
 user = g.get_user()
 repo = user.get_repo(repo_name)
 repo.delete()
